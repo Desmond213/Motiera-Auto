@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="contact-body">
+    <section class="container">
+      <header>Contact Form</header>
+      <form action="https://formspree.io/f/mwpbrbgb" method="POST" class="form">
+        <div class="input-box">
+          <label>Firstname</label>
+          <input type="text" name="Firstname" placeholder="Enter full name" required />
+        </div>
+
+        <div class="input-box">
+          <label>Lastname</label>
+          <input type="text" name="Lastname" placeholder="Enter full name" required />
+        </div>
+
+        <div class="input-box">
+           <label>Phone</label>
+           <input type="tel" name="phone" placeholder="+234" required>
+        </div>
+
+        <div class="input-box">
+          <label>Email</label>
+          <input type="email" name="email" placeholder="Enter email">
+        </div>
+
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
