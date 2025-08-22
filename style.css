@@ -19,6 +19,7 @@ body {
 
 #navbar {
   background-color: white !important;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.3) !important;
 }
 
 .hero-image {
@@ -92,6 +93,8 @@ body {
 }
 
 .hero-texts {
+  /* width: 100%;
+  max-width: 200px; */
   padding-top: 120px;
 }
 
@@ -183,7 +186,7 @@ body {
 }
 
 .shop-icon3 {
-  color: #2b5b59;
+  color: #008ecc;
   font-size: 50px;
   text-align: center;
   padding-top: 20px;
@@ -322,7 +325,7 @@ body {
   height: 350px;
   width: 100%;
   max-width: 280px;
-  background-color: #006994;
+  background: linear-gradient(to right, #00b4d8, #008ecc);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   border: 0.5px solid rgba(255, 255, 255, 0.452);
@@ -466,7 +469,7 @@ body {
   min-width: 300px;
   max-width: 600px;
   padding: 10px 0px;
-  background-color: #006994;
+  background: linear-gradient(to right, #00b4d8, #008ecc);
   padding-right: 10px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -485,7 +488,7 @@ body {
   }
 
   p {
-    color: rgba(255, 255, 255, 0.795);
+    color: rgba(255, 255, 255, 0.929);
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
@@ -551,7 +554,7 @@ body {
   width: 100%;
   max-width: 360px;
   border-radius: 10px;
-  background-color: #006994;
+  background: linear-gradient(to right, #00b4d8, #008ecc);
 }
 
 .notes-1 {
@@ -725,7 +728,7 @@ body {
 .radius-option1 {
   height: 60px;
   width: 60px;
-  background-color: #2b5b59;
+  background-color: #008ecc;
   border-radius: 50%;
 }
 
@@ -742,7 +745,7 @@ body {
   width: 100%;
   max-width: 7px;
   border-radius: 50%;
-  background-color: #006994;
+  background-color: #008ecc;
   margin-top: 9px;
 }
 
@@ -777,13 +780,13 @@ body {
 
 #contact-icon1 {
   margin-right: 10px;
-  color: #006994;
+  color: #008ecc;
 }
 
 #contact-icon2 {
   margin-right: 10px;
   font-size: 25px;
-  color: #006994;
+  color: #008ecc;
 }
 
 .right-side {
@@ -792,7 +795,7 @@ body {
   padding: 20px;
   background: #ffffff;
   border-radius: 0 16px 16px 0; /* rounded right corners */
-  background-color: #006994;
+  background: linear-gradient(to right, #00b4d8, #008ecc);
 
   h4 {
     color: white;
@@ -915,7 +918,505 @@ form button:hover {
   }
 }
 
+/* vehicles-section */
+#vehicle-body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.vehicles-collection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.vehicle-1 {
+  width: 100%;
+  max-width: 700px;
+  height: 400px;
+  background-image: url(images/car22.png);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.482);
+  background-blend-mode: multiply;
+  display: flex;
+  justify-content: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.vehicle-01 {
+  width: 100%;
+  max-width: 300px;
+  /* background-color: green; */
+  height: 150px;
+  margin-top: 200px;
+
+  h3 {
+    color: white;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    padding-top: 20px;
+  }
+
+  h2 {
+    color: white;
+    font-family: var(---fontfamily3);
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  p {
+    color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    text-align: center;
+    padding-top: 20px;
+  }
+}
+
+#vehicle-icon1 {
+  color: white;
+  background-color: #008ecc;
+  padding: 5px 5px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+#vehicle-icon1:hover {
+  transform: scale(1.3);
+}
+
+.vehicle-2 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  height: 400px;
+  background-image: url(/images/vehicle4.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.422);
+  background-blend-mode: multiply;
+}
+
+.vehicle-02 {
+  width: 100%;
+  max-width: 200px;
+  /* background-color: red; */
+  margin-top: 360px;
+
+  p {
+    color: white;
+    font-family: var(---fontfamily3);
+    font-weight: 500;
+  }
+}
+
+.heart-icon {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.heart-icon i {
+  color: white;
+  font-size: 25px;
+}
+
+.heart-icon .solid-heart {
+  display: none;
+  transition: transform 0.3s ease;
+}
+
+.heart-icon:hover .regular-heart {
+  display: none;
+}
+
+.heart-icon:hover .solid-heart {
+  display: inline;
+  transform: scale(1.2);
+  color: #008ecc;
+}
+
+.new-arrival {
+  h1 {
+    color: black;
+    text-align: center;
+    font-family: var(---fontfamily3);
+    padding-top: 3.125rem;
+  }
+
+  p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.new-pictures {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.new-container1 {
+  width: 100%;
+  max-width: 500px;
+  height: 520px;
+}
+
+.new-img1 {
+  width: 100%;
+  max-width: 510px;
+  height: 320px;
+  background-image: url(/images/vehicles7.png);
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.422);
+  background-blend-mode: multiply;
+  margin-bottom: 10px;
+
+  button {
+    border: none;
+    margin-top: 286px;
+    padding: 5px 10px;
+    border-top-right-radius: 5px;
+    background-color: #008ecc;
+    color: white;
+  }
+}
+
+.side-twoflex {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  gap: 10px;
+}
+
+.side-one {
+  width: 100%;
+  max-width: 250px;
+  height: 190px;
+  background-image: url(/images/lala6.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 10px;
+}
+
+.side-two {
+  width: 100%;
+  max-width: 250px;
+  height: 190px;
+  background-image: url(/images/lala5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  button {
+    border: none;
+    padding: 5px 10px;
+    background-color: #008ecc;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: white;
+    margin-top: 155px;
+    border-top-right-radius: 5px;
+  }
+}
+
+.new-container2 {
+  width: 100%;
+  max-width: 500px;
+  height: 520px;
+  /* background-color: #00aaff; */
+}
+
+.second-sideflex {
+  display: flex;
+  gap: 10px;
+}
+
+.side-three {
+  width: 100%;
+  max-width: 245px;
+  height: 190px;
+  background-image: url(/images/try1.jpg);
+  background-size: cover;
+  background-position: center;
+
+  button {
+    padding: 5px 10px;
+    border-top-right-radius: 5px;
+    background-color: #008ecc;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: white;
+    border: none;
+    margin-top: 156px;
+  }
+}
+
+.side-four {
+  width: 100%;
+  max-width: 245px;
+  height: 190px;
+  background-image: url(/images/lala3.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top-right-radius: 10px;
+
+  button {
+    border: none;
+    padding: 5px 10px;
+    background-color: #008ecc;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: white;
+    margin-top: 156px;
+    border-top-right-radius: 5px;
+  }
+}
+
+.new-img2 {
+  width: 100%;
+  max-width: 510px;
+  height: 320px;
+  background-image: url(/images/suv5.png);
+  background-size: cover;
+  border-bottom-right-radius: 10px;
+  background-position: center;
+  margin-top: 10px;
+
+  button {
+    border: none;
+    padding: 5px 10px;
+    margin-top: 286px;
+    background-color: #008ecc;
+    color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    border-top-right-radius: 5px;
+  }
+}
+
+.show-cars {
+  width: 100%;
+  padding-left: 20px;
+  margin-top: 50px;
+  h1 {
+    margin: 0;
+    color: black;
+    padding-left: 1rem;
+  }
+
+  p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    padding-top: 20px;
+  }
+
+  p i {
+    color: #006994;
+    padding-right: 10px;
+  }
+}
+
+.bttn-back {
+  button {
+    background-color: white;
+    border: #006994 1px solid;
+    padding: 5px 10px;
+  }
+
+  i {
+    color: #006994;
+    padding-right: 5px;
+  }
+}
+
+.cars {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  /* flex-wrap: wrap; */
+}
+
+.compact {
+  h3 {
+    padding-left: 20px;
+  }
+}
+
+.cars-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 20px;
+  width: 95%;
+  gap: 20px;
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media (max-width: 840px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (max-width: 567px) {
+    grid-template-columns: repeat(1, 1fr);
+    width: 85%;
+  }
+  /* justify-content: ; */
+}
+
+.compact-1 {
+  max-width: 300px;
+  height: 300px;
+  background-image: url(/images/volvo1.jpg);
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.compact-content1 {
+  width: 300px;
+  height: 120px;
+  /* background-color: rgb(0, 255, 0); */
+  margin-bottom: 20px;
+
+  h5 {
+    font-family: var(---fontfamily3);
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    text-align: center;
+  }
+}
+
+.offer-btn1 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #00aaff;
+    color: white;
+    border-radius: 3px;
+  }
+
+  button i {
+    margin-right: 5px;
+  }
+}
+
+.compact-2 {
+  max-width: 300px;
+  height: 300px;
+  background-image: url(/images/car22.png);
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.compact-content2 {
+  max-width: 300px;
+  height: 120px;
+  /* background-color: blue; */
+
+  h5 {
+    padding-top: 10px;
+    font-family: var(---fontfamily3);
+    text-align: center;
+  }
+
+  p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    text-align: center;
+  }
+}
+
+.compact-3 {
+  max-width: 300px;
+  height: 300px;
+  background-image: url(/images/lala1.jpg);
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.compact-content3 {
+  max-width: 300px;
+  height: 120px;
+  /* background-color: blue; */
+
+  h5 {
+    font-family: var(---fontfamily3);
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    text-align: center;
+  }
+}
+
+.compact-4 {
+  max-width: 300px;
+  height: 300px;
+  background-image: url(/images/volvo1.jpg);
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.compact-content4 {
+  max-width: 300px;
+  height: 120px;
+  /* background-color: blue; */
+
+  h5 {
+    font-family: var(---fontfamily3);
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    text-align: center;
+  }
+}
+
 @media (max-width: 768px) {
+  .hero-texts {
+    text-align: center;
+  }
   .section2 {
     gap: 30px;
   }
@@ -997,8 +1498,9 @@ form button:hover {
   }
 
   form {
-    max-width: 400px;
-    margin: 0px;
+    max-width: 100%;
+    margin-bottom: 50px;
+    /* margin: 0px; */
   }
 
   .footer-container {
@@ -1027,10 +1529,16 @@ form button:hover {
 }
 
 @media (max-width: 567px) {
+  .hero-texts {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 50px;
+  }
+
   .section2 {
     gap: 25px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .box1 {
@@ -1049,7 +1557,6 @@ form button:hover {
     border-bottom-left-radius: 10px;
     width: 100%;
     max-width: 400px;
-
 
     .bttttn {
       margin-top: 10px;
@@ -1074,22 +1581,21 @@ form button:hover {
     max-width: 400px;
   }
 
-  .btn-below{
+  .btn-below {
     padding-left: 20px;
     padding-right: 20px;
 
-    button{
+    button {
       padding: 10px 15px;
     }
   }
 
-
-  .collection{
+  .collection {
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  .about-image{
+  .about-image {
     gap: 70px;
   }
 
@@ -1108,7 +1614,6 @@ form button:hover {
   .option1 {
     width: 100%;
     max-width: 300px;
-    
   }
 
   .form-container {
@@ -1116,13 +1621,40 @@ form button:hover {
     padding-right: 22px;
   }
 
-  .footer-2{
+  .footer-2 {
     padding-right: 20px;
     padding-left: 20px;
     flex-direction: column;
-    align-items: flex-start; 
+    align-items: flex-start;
     gap: 1rem;
   }
+
+  /* vehicle styling start */
+
+  .vehicles-collection {
+    width: 100%;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .vehicle-1 {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .vehicle-2 {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+  }
+
+  .new-img1 {
+    border-top-right-radius: 10px;
+  }
+
+  .new-pictures {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
-
-

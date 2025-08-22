@@ -5,29 +5,171 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/703cd02033.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
   </head>
   <body id="vehicle-body">
-    <div class="vehicles-flex1">
-      <div>
-        <div class="vehicle-picture1"></div>
-        <div class="vehicle-pricing1">
-          <h3>Tesla Cybertruck</h3>
-          <h4>$170,000</h4>
-          <button>Add to Cart</button>
+     <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+     <div class="container-fluid">
+      <img src="images/Group 2 (5).png" style="max-width: 150px; width: 100%;" alt="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Vehicles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+     </div>
+     </nav>
+
+    <div class="vehicles-collection">
+      <div class="vehicle-1">
+        <div class="vehicle-01">
+          <h3>Collections</h3>
+          <h2>NEW ARRIVALS</h2>
+          <p>
+            Discover <i class="fa-solid fa-arrow-right" id="vehicle-icon1"></i>
+          </p>
         </div>
       </div>
-      <div>
-        <div class="vehicle-picture2"></div>
-        <div class="vehicle-pricing2"></div>
-      </div>
-      <div>
-        <div class="vehicle-picture3"></div>
-        <div class="vehicle-pricing3"></div>
-      </div>
-      <div>
-        <div class="vehicle-picture4"></div>
-        <div class="vehicle-pricing4"></div>
+
+      <div class="vehicle-2">
+        <div class="vehicle-02">
+          <p>
+            <span class="heart-icon">
+              <i class="fa-regular fa-heart regular-heart"></i>
+              <i class="fa-solid fa-heart solid-heart"></i>
+            </span>
+            TOYOTA YARIS
+          </p>
+        </div>
       </div>
     </div>
+
+    <div class="new-arrival">
+      <h1>NEW ARRIVALS</h1>
+      <p>
+        Looking for your next ride? Our showroom just got even more exciting
+        with a fresh lineup of brand-new SUVs that combine power, comfort, and
+        modern design. Whether you're after rugged performance for off-road
+        adventures or premium features for family trips, we’ve got something for
+        every driver.
+      </p>
+
+      <div class="new-pictures">
+        <div class="new-container1">
+          <div class="new-img1">
+            <button>KIA Sonet 105 LX</button>
+          </div>
+          <div class="side-twoflex">
+            <div class="side-one"></div>
+            <div class="side-two">
+              <button>Land Cruiser</button>
+            </div>
+          </div>
+        </div>
+        <div class="new-container2">
+          <div class="second-sideflex">
+            <div class="side-three">
+              <button>Volvo Golf</button>
+            </div>
+            <div class="side-four">
+              <button>Audi Sport</button>
+            </div>
+          </div>
+          <div class="new-img2">
+            <button>Lexus GX 550</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="show-cars">
+      <h2>All Models</h2>
+      <p><i class="fa-solid fa-print"></i>Load Configuration</p>
+      <div class="bttn-back">
+        <button><i class="fa-solid fa-plus"></i>Automatic</button>
+        <button>
+          <i class="fa-solid fa-arrow-down-short-wide"></i>More filters
+        </button>
+      </div>
+      <p>14 models of 14 models shown</p>
+    </div>
+
+    <div class="compact">
+       <h3>SUV(4)</h3>
+       <div style="display: flex;  justify-content: center;">
+        <div class="cars-container">
+          <div>
+            <div class="compact-1"></div>
+            <div class="compact-content1">
+              <h5>Volvo Golf</h5>
+              <p>MSRP* starting at $19,202</p>
+              <div class="offer-btn1">
+                <button><i class="fa-solid fa-charging-station"></i>Electric</button>
+                <button><i class="fa-solid fa-list"></i>View offers</button>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="compact-2"></div>
+            <div class="compact-content2">
+              <h5>Subaru Max</h5>
+              <p>MSRP* starting at $39,202</p>
+              <div class="offer-btn1">
+                <button><i class="fa-solid fa-charging-station"></i>Electric</button>
+                <button><i class="fa-solid fa-list"></i>View offers</button>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="compact-3"></div>
+            <div class="compact-content3">
+              <h5>Audi Q3 Sport</h5>
+              <p>MSRP* starting at $39,202</p>
+              <div class="offer-btn1">
+                <button><i class="fa-solid fa-charging-station"></i>Electric</button>
+                <button><i class="fa-solid fa-list"></i>View offers</button>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="compact-4"></div>
+            <div class="compact-content4">
+              <h5>Subaru Max</h5>
+              <p>MSRP* starting at $39,202</p>
+              <div class="offer-btn1">
+                <button><i class="fa-solid fa-charging-station"></i>Electric</button>
+                <button><i class="fa-solid fa-list"></i>View offers</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    
   </body>
 </html>

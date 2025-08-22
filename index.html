@@ -14,28 +14,29 @@
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Document</title>
   </head>
   <body>
       <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
      <div class="container-fluid">
-      <a class="navbar-brand" href="#">Graviz</a>
+      <img src="images/Group 2 (5).png" style="max-width: 150px; width: 100%;" alt="">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="/index.html#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#about-section">About</a>
+            <a class="nav-link active" aria-current="page" href="/index.html#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Vehicles</a>
+            <a class="nav-link active" aria-current="page" href="/vehicles.html">Vehicles</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+            <a class="nav-link active" aria-current="page" href="/index.html#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -55,7 +56,7 @@
           </ul>
         </nav> -->
 
-        <div class="hero-image">
+        <div class="hero-image" id="home">
           <div class="overlay">
             <div class="hero-texts">
               <h1>
@@ -105,7 +106,7 @@
         </div>
 
         <div class="section2">
-          <div class="flex1">
+          <div class="flex1" data-aos="fade-right">
             <div class="box1">
               <p>As shown $75,000*39/37 MPG Est</p>
             </div>
@@ -126,7 +127,7 @@
             </div>
           </div>
 
-          <div class="flex2">
+          <div class="flex2" data-aos="fade-left">
             <div class="box3"></div>
             <div class="box4">
               <h5>2025</h5>
@@ -161,13 +162,13 @@
           </div>
         </div>
 
-        <div class="about-section">
+        <div class="about-section" id="about">
           <div class="about-image">
             <div class="about-content">
               <h1>About Us</h1>
               <p>Gravix is your trusted online destination for buying and selling cars with ease. Whether you're searching for your next vehicle or listing your own for sale, Gravix offers a streamlined, user-friendly platform that connects buyers and sellers quickly and securely. Discover great deals, detailed listings, and a smooth car shopping experience—all in one place.</p>
             </div>
-            <div class="about-block">
+            <div class="about-block" data-aos="fade-left">
               <div class="notes-1">
                 <p><i class="fa-solid fa-check" style="margin-right: 10px; background-color: white; border-radius: 100%; color: #006994; padding: 10px;"></i>High Quality, Ethically Sourced Materials</p>
               </div>
@@ -229,14 +230,14 @@
         <div class="car-section">
            <h1>What our clients say about us</h1>
            <div class="car-options">
-              <div class="option1"><div class="testimonial-div1">
+              <div class="option1" data-aos="zoom-in"><div class="testimonial-div1">
                   <div class="testimonial-img1"></div>
                 </div>
                 <h6>"Fast, reliable, and transparent. From browsing to purchase, everything was smooth and hassle-free. I love my new car, and the after-sales support has been excellent too!"</h6>
                 
               </div>
 
-              <div class="option1"><div class="testimonial-div1">
+              <div class="option1" data-aos="zoom-in"><div class="testimonial-div1">
                   <div class="testimonial-img2"></div>
                 </div>
                 <h6>"After shopping around multiple sites, ElanMotors stood out for its sleek design and curated selection of quality vehicles. I appreciated the no-haggle pricing and easy financing options. This is how car buying should be"</h6>
@@ -244,14 +245,14 @@
               </div>
               
 
-              <div class="option1"><div class="testimonial-div1">
+              <div class="option1" data-aos="zoom-in"><div class="testimonial-div1">
                   <div class="testimonial-img3"></div>
                 </div>
                 <h6>"I’ve been hesitant about buying a car online, but ElanMotors completely changed my perception. The detailed vehicle history, honest pricing, and no-pressure support gave me total confidence. I love my new SUV!"</h6>
                 
               </div>
               
-              <div class="option1"><div class="testimonial-div1">
+              <div class="option1" data-aos="zoom-in"><div class="testimonial-div1">
                   <div class="testimonial-img4"></div>
                 </div>
                 <h6>"ElanMotors made the entire car-buying process unbelievably easy. The website is intuitive, the listings are clear, and the customer service was top-notch. I found my dream car within hours and had it delivered within days. Highly recommended!"</h6>
@@ -271,8 +272,8 @@
            </div>
         </div>
 
-        <div class="form-container">
-           <div class="left-side">
+        <div class="form-container" id="contact">
+           <div class="left-side"  data-aos="fade-right">
               <h4>Let's get in touch</h4>
               <p>Have a question, comment, or just want to say hello? Fill out the form and I’ll get back to you soon.</p>
               <p><i class="fa-solid fa-address-card" id="contact-icon1"></i>Cherry drive</p>
@@ -287,7 +288,7 @@
               </div>
            </div>
 
-           <div class="right-side">
+           <div class="right-side" data-aos="fade-left">
                <h4>Contact Us</h4>
                <form 
                   action="https://formspree.io/f/mpwlnddr"
@@ -358,6 +359,10 @@
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     >
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
   </script>
   </body>
 </html>
